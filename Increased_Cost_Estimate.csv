@@ -1,0 +1,25 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,4769.178,57230.14,USD,"Operating system (Linux), Storage amount (1000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 12), Advance EC2 instance (t3.2xlarge), Pricing strategy (On-Demand), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,94.21,1130.52,USD,S3 Standard storage (4 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,217.17,2606.04,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1795.64,21547.68,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (3 TB), Provisioning IOPS (2000), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (3 TB)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2148.92,25787.04,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (4 TB), Provisioning IOPS (2000), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (4 TB)"
+My Estimate,US East (N. Virginia),,Classic Load Balancer,0,51.02,612.24,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (4 TB per month)"
+My Estimate,US West (N. California),,Classic Load Balancer,0,53.21,638.52,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (4 TB per month)"
+My Estimate,US West (N. California),,Application Load Balancer,0,18.4,220.8,USD,Number of Application Load Balancers on Outposts (1)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,16.43,197.16,USD,Number of Application Load Balancers on Outposts (1)
+My Estimate,US West (N. California),,Amazon EC2,0,5635.198,67622.38,USD,"Operating system (Linux), Storage amount (1000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 12), Advance EC2 instance (t3.2xlarge), Pricing strategy (On-Demand), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+My Estimate,US West (N. California),,Amazon Virtual Private Cloud (VPC),0,231.65,2779.8,USD,Number of NAT Gateways (1)
+My Estimate,US West (N. California),,Amazon RDS for MySQL,0,1937.412,23248.94,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (3 TB), Provisioning IOPS (2000), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (3 TB)"
+My Estimate,US West (N. California),,Amazon RDS for MySQL,0,2317.316,27807.79,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (4 TB), Provisioning IOPS (2000), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (4 TB)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Replicate the architecture to another region (US West (N. California)) for disaster recovery.,,,,,,,,
+Provisioned IOPS for RDS databases for improved performance and availability.,,,,,,,,
+NAT Gateway to each region.,,,,,,,,

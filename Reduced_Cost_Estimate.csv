@@ -1,0 +1,18 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,3354.714,40256.57,USD,"Operating system (Linux), Storage amount (1 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 12), Advance EC2 instance (t3.xlarge), Pricing strategy (On-Demand), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,16.43,197.16,USD,Number of Application Load Balancers on Outposts (1)
+My Estimate,US East (N. Virginia),,S3 Standard,0,94.21,1130.52,USD,S3 Standard storage (4 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,217.17,2606.04,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1334.2,16010.4,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3 TB), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (3 TB)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1334.2,16010.4,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3 TB), Quantity (1), Instance type (db.m1.large), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (3 TB)"
+My Estimate,US East (N. Virginia),,Classic Load Balancer,0,51.02,612.24,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (4 TB per month)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"RDS databases is costing the most of the money, cutting down costs by using smaller instance types and storage for the Read Replica (from db.m5.12xlarge instance to a db.m5.4xlarge instance and from 4TB to 3TB in storage respectively).",,,,,,,,
+EC2 instances.  Cheaper instance type running on General Purpose SSD.,,,,,,,,

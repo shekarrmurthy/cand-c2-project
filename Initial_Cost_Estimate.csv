@@ -1,0 +1,14 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,4030.904,48370.85,USD,"Operating system (Linux), Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 16), Advance EC2 instance (t3.2xlarge), Pricing strategy (On-Demand), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,16.43,197.16,USD,Number of Application Load Balancers on Outposts (1)
+My Estimate,US East (N. Virginia),,S3 Standard,0,94.21,1130.52,USD,S3 Standard storage (4 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,217.17,2606.04,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2125.44,25505.28,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (4 TB), Quantity (1), Instance type (db.t3.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (4 TB)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2125.44,25505.28,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (4 TB), Quantity (1), Instance type (db.t3.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (4 TB)"
+My Estimate,US East (N. Virginia),,Classic Load Balancer,0,51.02,612.24,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (4 TB per month)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
